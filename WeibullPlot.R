@@ -1,3 +1,7 @@
+library(ggplot2)
+library(dplyr)
+library(ggthemes)
+
 # Linearize y-axis on Weibull paper
 WeibulLinTrans <- function (x) {log(log( 1/( 1 - x) )) }
 
